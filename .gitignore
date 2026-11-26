@@ -71,3 +71,12 @@ Thumbs.db
 
 # --- 사용자 설정 파일 ---
 local.properties
+
+# Local configuration and generated Python files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
